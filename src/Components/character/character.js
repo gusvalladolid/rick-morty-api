@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./character.css"
 
-    Character = (props) =>{
+const Character = (props) =>{
     const { character } = props
     return(
         <React.Fragment>
@@ -15,8 +15,8 @@ import "./character.css"
                         </div>
                         <div class="description">
                         <h2>General Data:</h2>
-                        <p> Species: {props.character.species}</p>
-                        <p> Status: {props.character.status}</p>
+                        <p>Species: {props.character.species}</p>
+                        <p>Status: {props.character.status}</p>
                         <p>Gender: {props.character.gender}</p>
                         </div>
                     </div>
