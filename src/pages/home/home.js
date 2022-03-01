@@ -22,7 +22,7 @@ class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <h1 className="h1">Rick & Morty API</h1>
+                <h1 className="h1">Rick and Morty API</h1>
                 <h2 className="h2">{this.state.title}</h2>
                 <div className="Characters">
                     {this.state.characters.map((character) => {

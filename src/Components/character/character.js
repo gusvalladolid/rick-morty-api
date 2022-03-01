@@ -9,18 +9,18 @@ import "./character.css"
                 <div class ="container">
                     <div class ="datos_container">
                         <div class ="header">
-                        <Link className="Character__image" to={`/character/${character.id}`}>
-                        <img  className= "Character__image" src={props.character.image} alt={props.character.name}/> </Link>   
-                        <h2 className = "Character__name">{props.character.name}</h2>
+                        <Link  to={`/character/${character.id}`}>
+                        <img  src={props.character.image} alt={props.character.name}/> </Link>   
+                        <h2>{props.character.name}</h2>
                         </div>
                         <div class="description">
                         <h2>General Data:</h2>
-                        <p className = "Character__species"> Species: {props.character.species}</p>
-                        <p className = "Character__status"> Status: {props.character.status}</p>
+                        <p> Species: {props.character.species}</p>
+                        <p> Status: {props.character.status}</p>
                         <p>Gender: {props.character.gender}</p>
                         </div>
-                        </div>
                     </div>
+                </div>
         </React.Fragment>
     );
 };
