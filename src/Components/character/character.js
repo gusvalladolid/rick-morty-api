@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./character.css"
 
-const Character = (props) =>{
+    Character = (props) =>{
     const { character } = props
     return(
         <React.Fragment>
