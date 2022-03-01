@@ -9,10 +9,8 @@ const Character = (props) =>{
                 <div class ="container">
                     <div class ="datos_container">
                         <div class ="header">
-                            <a href="#">
-                            <Link className="Character__image" to={`/character/${character.id}`}>
-                  <img  className= "Character__image" src={props.character.image} alt={props.character.name}/> </Link>
-                            </a>
+                        <Link className="Character__image" to={`/character/${character.id}`}>
+                        <img  className= "Character__image" src={props.character.image} alt={props.character.name}/> </Link>   
                         <h2 className = "Character__name">{props.character.name}</h2>
                         </div>
                         <div class="description">
