@@ -8,7 +8,6 @@ const DetailCharacter = () =>{
     const [character, setCharacter] = useState({})
     const [origin, setOrigin] = useState({})
     const [location, setLocation] = useState({})
-    const [type, setType] = useState({})
 
     useEffect(()=>{
         const fetchCharacter = async ( ) =>{
@@ -16,7 +15,6 @@ const DetailCharacter = () =>{
             setCharacter(character)
             setOrigin(character.origin)
             setLocation(character.location)
-            setType(character.type)
         }
         fetchCharacter();
     },[])
