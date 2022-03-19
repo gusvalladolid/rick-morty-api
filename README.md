@@ -1,7 +1,11 @@
 <div>
+ ### RICK AND MORTY API APP
   ###Author
+  Application software with the MVC pattern.
   gusvalladolid // Gustavo Adolfo Valladolid Tarango
   
+  
+  ##Description
   
  With this images we can see how te application works and what is be able to do, the first thing that we will see, is going to be the loading screen.
   
