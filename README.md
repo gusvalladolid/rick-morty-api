@@ -6,7 +6,7 @@
  With this images we can see how te application works and what is be able to do, the first thing that we will see, is going to be the loading screen.
   
   
- <img src='https://user-images.githubusercontent.com/81264925/159103506-b2a5cb5c-78f2-4227-8b1a-57c570d8b805.jpe' width="250">
+ <img src='https://user-images.githubusercontent.com/81264925/159103506-b2a5cb5c-78f2-4227-8b1a-57c570d8b805.jpeg' width="250">
   
   
  The main screen we will see a bunch of cards where is the information extracted by the Rick and Morty API, we will show the relevant information of the characters.
