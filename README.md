@@ -1,11 +1,11 @@
 <div>
  ### RICK AND MORTY API APP
  
- ###Author
+ ###Author [gusvalladolid // Gustavo Adolfo Valladolid Tarango]
  
   Application software with the MVC pattern.
  
-  gusvalladolid // Gustavo Adolfo Valladolid Tarango
+
   
   
   ##Description
